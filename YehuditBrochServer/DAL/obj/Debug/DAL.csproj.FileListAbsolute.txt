@@ -1,0 +1,24 @@
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\DAL.dll.config
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\DAL.dll
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\DAL.pdb
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.xml
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.dll
+C:\Users\User\Dropbox\My PC (DESKTOP-B5S1T71)\Documents\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.pdb
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\DAL.dll.config
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\DAL.dll
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\DAL.pdb
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.dll
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.xml
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.dll
+D:\Yehudit\CitybookProject\yehuditBroch\YehuditBrochServer\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,75 @@
+<button class="form-control" class="back" (click)="enter()">back</button>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h1>My Form</h1>
+                    <form #myForm="ngForm" (ngSubmit)="register()">
+
+                        <div>
+                            <label>Tz</label>
+                            <input class="form-control" type="text" value="123456789" name="tz" #tz="ngModel" required
+                                minlength=9 maxlength=9 pattern="[0-9]*" [(ngModel)]="personService.person.tz">
+                            <show-errors [control]="tz"></show-errors>
+
+                        </div>
+
+                        <div>
+                            <label>First name</label>
+                            <input class="form-control" type="text" name="firstname" #firstname="ngModel" required
+                                pattern="[a-zA-Z ]*" [(ngModel)]="personService.person.firstName">
+                            <show-errors [control]="firstname"></show-errors>
+                        </div>
+
+                        <div>
+                            <label>Last name</label>
+                            <input class="form-control" type="text" name="lastname" #lastname="ngModel"
+                                [(ngModel)]="personService.person.lastName" required pattern="[a-zA-Z]*">
+                            <show-errors [control]="lastname"></show-errors>
+                        </div>
+
+                        <div>
+                            <label>Born date</label>
+                            <input class="form-control" type="date" name="bornDate" #bornDate="ngModel"
+                                [(ngModel)]="personService.person.bornDate" required max="/^{{today}}$/">
+                            <show-errors [control]="bornDate"></show-errors>
+                        </div>
+
+                        <div>
+                            <label>Gender</label>
+                            <select class="form-control" [(ngModel)]="personService.person.gender" required
+                                #gender="ngModel" name="gender">
+                                <option value="1">male</option>
+                                <option value="2">female</option>
+                            </select>
+                            <show-errors [control]="gender"></show-errors>
+                        </div>
+
+                        <div>
+                            <label>HMO</label>
+                            <select id="hmo" class="form-control" [(ngModel)]="personService.person.HMOId" required
+                                #HMOId="ngModel" name="HMOId">
+                                <option *ngFor="let hm of hmoList" value="{{hm.id}}">{{hm.name}}</option>
+                            </select>
+                            <show-errors [control]="HMOId"></show-errors>
+                        </div>
+
+                        <div ngModelGroup="children">
+                            <h3>Childrens</h3>
+                            <div *ngFor="let child of personService.person.children; let i=index;">
+                                <app-child-person [index]="i" [childP]="child"></app-child-person>
+                                <button class="remove" type="button"
+                                    (click)="remove(i); myForm.control.markAsTouched()">remove</button>
+                            </div>
+                            <button type="button" (click)="add(); myForm.control.markAsTouched()">Add Child</button>
+                        </div>
+
+                        <show-errors [control]="myForm"></show-errors>
+                        <button type="submit" [disabled]="myForm.invalid">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

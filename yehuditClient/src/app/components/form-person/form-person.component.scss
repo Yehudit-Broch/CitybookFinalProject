@@ -1,0 +1,37 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    margin-top: 3vh;
+    border-radius: 1%;
+}
+
+.back{
+   
+        height: 7vh;
+        width: 10vw;
+        font-size: 197%;
+        margin-left: 43vw;
+        margin-top: 4vh;
+}
+
+button{
+    margin-top: 2vh;
+    color:rgb(4, 4, 82);
+    background-color: white;
+    border:3px solid yellow;
+}
+
+#hmo{
+    direction: rtl;
+}
+
+.remove{
+    margin-top: 0.5%;
+    margin-bottom:1vh ;
+    margin-left: 24vw;
+}
+
+

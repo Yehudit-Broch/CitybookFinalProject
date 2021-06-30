@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h6>Child {{index + 1}}</h6>
+                    <div>
+                        <label>Name</label>
+                        <input class="form-control" type="text" name="child[{{index}}]" #name="ngModel"
+                            [(ngModel)]="childP.name" required pattern="[a-zA-Z ]*">
+                        <show-errors [control]="name"></show-errors>
+                    </div>
+                    <div>
+                        <label>Tz</label>
+                        <input class="form-control" type="text" name="child[{{index}}]" #tz="ngModel"
+                            [(ngModel)]="childP.tz" required minlength=9 maxlength=9 pattern="[0-9]*">
+                        <show-errors [control]="tz"></show-errors>
+                    </div>
+                    <div>
+                        <label>Born date</label>
+                        <input class="form-control" type="date" name="child[{{index}}]" #born="ngModel"
+                            [(ngModel)]="childP.bornDate" required max="/^{{today}}$/"> 
+                        <show-errors [control]="born"></show-errors>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
